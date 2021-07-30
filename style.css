@@ -1,5 +1,7 @@
 .main-section-banner {
+    height: 300px;
     background-image: url("https://i.ibb.co/JnmTD12/banner.jpg");
     background-position: center;
     background-size: cover;
 }
+
