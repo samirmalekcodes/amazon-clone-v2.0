@@ -1,7 +1,63 @@
 .main-section-banner {
-    height: 300px;
-    background-image: url("https://i.ibb.co/JnmTD12/banner.jpg");
-    background-position: center;
-    background-size: cover;
+  height: 300px;
+  background-image: url("https://i.ibb.co/JnmTD12/banner.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
+.icon-desktop {
+  transition: transform 0.2s;
+}
+
+.icon-desktop:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 14px 2px rgba(19, 19, 19, 0.55);
+}
+
+.icon-gift {
+  transition: transform 0.2s;
+}
+
+.icon-gift:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 14px 2px rgba(19, 19, 19, 0.55);
+}
+
+.icon-mobile,
+.icon-book,
+.icon-camera,
+.icon-home,
+.icon-music,
+.icon-lightbulb {
+  transition: transform 0.2s;
+}
+
+.icon-mobile:hover,
+.icon-book:hover,
+.icon-camera:hover,
+.icon-home:hover,
+.icon-music:hover,
+.icon-lightbulb:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 14px 2px rgba(19, 19, 19, 0.55);
+}
+
+.main-product {
+  transition: transform 0.2s;
+}
+
+.main-product:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 14px 0.75px rgba(245, 159, 11, 0.824);
+}
+
+/* .cart-item-image:hover,
+.cart-item-details:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 14px 2px rgba(19, 19, 19, 0.55);
+}
+
+.cart-item-image,
+.cart-item-details {
+    transform: scale(1.05);
+} */
